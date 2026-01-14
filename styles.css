@@ -23,7 +23,8 @@ body {
   justify-content: center;
   padding: clamp(1.5rem, 4vh, 3rem);
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body::before,
